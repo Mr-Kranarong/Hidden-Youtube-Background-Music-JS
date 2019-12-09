@@ -6,8 +6,7 @@
  This fork locate here: https://github.com/Mr-Kranarong/Hidden-Youtube-Background-Music-JS
  
  Usage:
- <div data-video="VIDEO-ID"  
-        data-autoplay="1"         
+ <div data-video="VIDEO-ID"          
         data-loop="1"
         data-playlist="PLAYLIST-LEAVE EMPTY IF ONLY SINGLE SONG"             
         id="youtube-audio">
@@ -26,7 +25,7 @@ function onYouTubeIframeAPIReady() {
       width: "0",
       videoId: e.dataset.video,
       playerVars: {
-          autoplay: e.dataset.autoplay,
+          autoplay: 1,
           loop: e.dataset.loop,
           list: e.dataset.playlist,
           playlist: e.dataset.video 
