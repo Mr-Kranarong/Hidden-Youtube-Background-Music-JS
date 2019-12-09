@@ -1,8 +1,7 @@
 ### Usage:
 
 ```HTML
- <div data-video="VIDEO-ID"  
-        data-autoplay="1"         
+ <div data-video="VIDEO-ID"          
         data-loop="1"
         data-playlist="PLAYLIST-LEAVE EMPTY IF ONLY SINGLE SONG"             
         id="youtube-audio">
